@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Yeseva One", cursive;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.title-content {
+  width: 550px;
+  margin: 90px 0;
+}
+.clip-path {
+  border-left: 5px solid red;
+  border-radius: 5px;
+  padding: 8px;
+}
+.title-content img {
+  width: 100%;
+}
+.title {
+  font-size: 64px;
+}
+.title-color {
+  color: FFAD5A;
+}
+.self-title {
+  font-family: sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.explore {
+  margin-top: 5%;
+}
+.explore-now {
+  text-decoration: none;
+  color: white;
+  background-color: #e02c6d;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+.explore-now i {
+  padding-left: 5px;
+}
+.intro-picture {
+  width: 50%;
+  padding: 5%;
+  padding-right: 10%;
+}
+.intro-picture img {
+  width: 100%;
+}
+
+/* <!-- More Explore details */
+
+.all-ambitions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 5%;
+  font-family: sans-serif;
+}
+.ambition img {
+  width: 50%;
+}
+.ambition {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 22px;
+}
+.mission-1 {
+  background-color: rgba(255, 192, 203, 0.205);
+}
+.vission-2 {
+  background-color: rgba(255, 192, 203, 0.397);
+}
+.goals-3 {
+  background-color: rgba(255, 240, 192, 0.24);
+}
+
+/* development section */
+
+.flexible-container {
+  margin-bottom: 150px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.develop-page {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.half-width {
+  float: right;
+  margin: 20px;
+}
+.half-width img {
+  width: 100%;
+}
+.half-width img {
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.projects-text {
+  font-size: 28px;
+}
+.h1-font {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.footer-font {
+  font-size: 30px;
+}
+
+/* bonus */
+contact-form {
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 15px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="textarea"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #363958;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.contact-form button[type="submit"] {
+  background: none;
+  border: 0;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #f46060;
+  padding: 13px 10px;
+  width: 150px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.contact-part {
+  height: 260px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+}
+.container {
+  padding-top: 20px;
+}
